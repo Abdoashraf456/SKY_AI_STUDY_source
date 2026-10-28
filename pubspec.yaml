@@ -1,0 +1,25 @@
+name: sky_ai_study
+description: SKY AI STUDY - local university study helper.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  file_picker: ^8.1.7
+  shared_preferences: ^2.3.5
+  syncfusion_flutter_pdf: ^27.2.5
+  pdf: ^3.11.1
+  printing: ^5.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
